@@ -1,0 +1,102 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+table{
+    width: 50%;
+}
+
+table.shop tbody tr:nth-child(odd){
+    background-color: #CECECE;
+}
+
+table.shop tbody tr:nth-child(even){
+    background-color: #E8E8E8;
+}
+
+table.shop tbody tr:hover{
+    background-color: rgb(152, 248, 248);
+}
+
+div.button {
+    width: 50%;
+    display: flex;
+    margin-left: 8px;
+    justify-content: right;
+}
+
+div.button a{
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    background-color: #EF755E;
+    
+}
+
+div.button a:first-child:before{
+    padding: 7px;
+    font: var(--fa-font-solid);
+    content: "\f09d";
+    color: rgb(61, 42, 42);
+}
+div.button a:last-child:before{
+    padding: 7px;
+    font: var(--fa-font-solid);
+    content: "\f07a";
+    color: rgb(61, 42, 42);
+}
+
+div.button a:hover{
+    background-color: rgb(113, 100, 113);
+}
+
+table.shop thead tr{
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: 400;
+    font-size: 14px;
+    color: #FEFEFE;
+    background-color: #3F3F3F ;
+}
+
+table.shop tbody tr{
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+table.shop tr th:nth-child(3),td:nth-child(3){
+    text-align: center;
+}
+
+table.shop tr th:nth-child(4),td:nth-child(4){
+    text-align: right;
+}
+
+table.shop tr th:nth-child(5),td:nth-child(5){
+    text-align: right;
+}
+
+table.shop tr th,td:nth-child(6){
+    width: 2px;
+}
+
+table.shop tr td:nth-child(6) i{
+    display: inline;
+    padding: 5px;
+    padding-right: 0;
+}
+
+table.shop tfoot{
+    text-align: right;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FEFEFE;
+    background-color: #595959 ;
+}
+
+
+
+

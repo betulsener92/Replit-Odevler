@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+nav.menu .icon{
+    display: none;
+}
+
+nav.menu{
+  padding-left: 0;
+}
+  
+nav.menu ul{
+  list-style-type: none;
+    background-color: rgb(205, 202, 199);
+    margin: 0;
+    font-size: 1.5rem;
+    display: none;
+    padding: 0;
+    width: 10rem;
+    text-align: center;
+  }
+
+nav.menu ul li:nth-child(1){
+  background-color: rgb(71, 70, 70);
+}
+
+
+  nav.menu ul li:nth-child(n+2):before{
+    content: "::";
+    position: absolute;
+    left: 40px;
+  }
+  
+  nav.menu ul li{
+    padding: 8px;
+  }
+  
+  nav.menu ul li a{
+    text-decoration: none;
+    color: rgb(254, 249, 249);
+  }
+  
+  nav.menu .menu-icon{
+    display: block;
+    color: black;
+    padding: 5px 25px;
+    font-size: 2rem;
+  }
+  
+.icon:checked + ul{
+    display: inline-block;
+    margin-left: 25px;
+  }
+  

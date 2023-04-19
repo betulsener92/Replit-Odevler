@@ -1,0 +1,118 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    --color1: #573772;
+    --color2: #363A3A;
+    --color3: #FFEFFF;
+    --color4: white;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section.container{
+    background-color: var(--color1);
+}
+
+
+section.step{
+    display: flex;
+    padding:24px 25px 0 25px;
+    flex-wrap: wrap;
+}
+
+section.step .return{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--color1);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+section.step .return a{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 500;
+}
+
+section.step h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+section.step .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+section.step .input input{
+    border: none;
+    border-bottom: 1.5px solid var(--color1);
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 200px;
+}
+
+section.step .button a{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--color1);
+    padding: 10px 50px;  
+    color: var(--color3);
+    font-weight: 600;
+}
+
+section.step .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+section.step .bg{
+    color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/img/indir.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 3 1 300px;
+    
+}
+
+section.step .bg h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+section.step .bg h3{
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0;
+    padding: 5px;
+}
+
+section.step > div:first-child{
+    height: 70vh;
+    background-color: var(--color4);
+    display: flex;
+    flex-direction: column;
+    flex: 2 2 200px;
+    margin-bottom: 20px;
+}
+
+section.step > div:last-child{
+    height: 70vh;
+}

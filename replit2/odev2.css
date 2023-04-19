@@ -1,0 +1,22 @@
+
+nav.main ul{
+    list-style-type: none;
+    margin:200px;
+    text-align: center;
+}
+
+nav.main li{
+    display: inline-block; 
+    padding: 20px;
+}
+
+nav.main li a{
+    display: inline-block;
+    background-color:#FF0063;
+    padding: 10px 5px;
+    text-decoration: none;
+    color:#EAF6F6;
+}
+
+
+
